@@ -4,7 +4,7 @@
     "version": "v1.2.1",
     "typings": "index.d.ts",
     "scripts": {
-        "build": "CC=musl-gcc CXX=musl-g++ cmake-js -p${nproc} compile"
+        "build": "cmake-js -p${nproc} compile"
     },
     "dependencies": {
         "ws": "^8.18.3",
@@ -34,3 +34,4 @@
     "homepage": "https://github.com/dev-swarup/NMiner#readme"
 
 }
+
